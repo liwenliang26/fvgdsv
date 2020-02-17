@@ -1090,7 +1090,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: transparent;
+  background: url("../img/1.png");
 }
 .header-inner {
   position: relative;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #731f3e;
+  background: #ffab88;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2659,4 +2659,29 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.brand {
+  position: relative;
+  display: inline-block;
+  padding: 0 40px;
+  color: #fff;
+  background: #8c8c8c;
+  border-bottom: none;
+}
+.menu-item a {
+  display: block;
+  font-size: 13px;
+  line-height: inherit;
+  border-bottom: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+a {
+  color: #8c8c8c;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid #999;
+  word-wrap: break-word;
 }
