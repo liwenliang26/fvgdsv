@@ -1218,6 +1218,17 @@ pre .javascript .function {
 .use-motion .menu-item {
   opacity: 0;
 }
+.sk {
+  width: 420px;
+  margin: auto;
+}
+.sj {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  background-color: #a4a19b;
+  margin: 0 auto;
+}
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -1822,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff95ff;
+  background: #d46fff;
 }
 .links-of-blogroll {
   font-size: 13px;
